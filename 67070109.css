@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+}
+.right-nav{
+    margin-left: 15px;
+    display: flex;
+}
+.nav-item{
+    color: black;
+    padding-right: 20px;
+}
+.body{
+    background-color: rgb(255, 127, 212);
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-bottom: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+img{ 
+    width: 720px;
+    height: 360px;
+    border-color: rgb(120, 226, 120);
+    border-width: 50px;
+}
+.body .title{
+    display: flex;
+    justify-content: space-around;
+    display: table-column;    
+}
+.title-des{
+    width: 450px;
+}
