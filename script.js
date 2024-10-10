@@ -9,10 +9,10 @@ function setUsername(){
 function setImage(){
     image.style.backgroundImage = "url(" + inputImage.value + ")"
 }
-function makeElement(){
+function addName(){
     const e = document.createElement("p")
-    e.textContent = "s"
-    document.getElementById("w").appendChild(e)
+    e.textContent = "sasdsad"
+    document.getElementById("create").appendChild(e)
 }
 function saveCSV() {
     const csvContent = phonenumber.map(row => row.join(",")).join("\n"); // Convert array to CSV string
@@ -25,4 +25,4 @@ function saveCSV() {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-};
+}

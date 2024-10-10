@@ -57,13 +57,31 @@
         }
         button{
             padding: .2em .5em;
-            border: 2px solid rgb(48, 48, 48);
+            border: 1px solid rgb(48, 48, 48);
             border-radius: .5em;
         }
+        
     }   
 }
-
 .linktoProfile:hover{
     color: rgb(109, 176, 238);
     text-decoration: underline;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em 0;
+    & p{
+        font-size: 2vh;
+    }
+    table{
+        margin: 2em 0 0 0;
+        width: 100%;
+        border-collapse: collapse;
+        td, th{
+            text-align: center
+        }
+    }
 }
