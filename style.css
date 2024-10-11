@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 .main{
@@ -16,7 +17,7 @@
     .para{
         margin: 0 0 2em 0;
         font-weight: bold;
-        color: black;
+        /* color: black; */
     }
     .image{
         width: 183px;
@@ -59,9 +60,13 @@
             padding: .2em .5em;
             border: 1px solid rgb(48, 48, 48);
             border-radius: .5em;
+            margin: 0 1em;
         }
         
     }   
+}
+.linktoProfile{
+     color: black;
 }
 .linktoProfile:hover{
     color: rgb(109, 176, 238);
